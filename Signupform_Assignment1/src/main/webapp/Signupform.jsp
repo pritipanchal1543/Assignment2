@@ -18,11 +18,11 @@ body {
 	<th> User Sign-up Form </th>
 	<tr>
 		<td>User Name</td>
-		<td><input type="text" name="username" <%-- %>pattern="[a-zA-Z]{1,10}"--%> required/></td>
+		<td><input type="text" name="userName" <%-- %>pattern="[a-zA-Z]{1,10}"--%> required/></td>
 	</tr>
 	<tr>
 		<td>User Email</td>
-		<td><input type="email" name="useremail" required/></td>
+		<td><input type="email" name="userEmail" required/></td>
 	</tr>
 	<tr>
 		<td>Password</td>
@@ -34,7 +34,7 @@ body {
 	</tr>
 	<tr>
 		<td>Preferred Name</td>
-		<td><input type="text" name="preferredname"/></td>
+		<td><input type="text" name="preferredName"/></td>
 	</tr>
 	<tr>
 		<td>Name</td>

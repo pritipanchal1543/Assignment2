@@ -31,7 +31,7 @@ public class SignupFormServlet extends HttpServlet {
         String name = request.getParameter("name");
 
         SignupForm sf = new SignupForm();
-        sf.setName(userName);
+        sf.setUsername(userName);
         sf.setUseremail(userEmail);
         sf.setPassword(password);
         sf.setPassword1(password1);

@@ -22,7 +22,7 @@ public class UserDao {
 				"1234")) {
             PreparedStatement ps = conn.prepareStatement(INSERT_SQL);
             ps.setInt(1, 2);
-            ps.setString(1, su.getName());
+            ps.setString(1, su.getUsername());
             ps.setString(2, su.getUseremail());
             ps.setString(3, su.getPassword());
             ps.setString(4, su.getPreferredname());
